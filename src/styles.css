@@ -27,6 +27,7 @@ h1 {
   font-size: 100px;
   font-weight: 700;
   margin: 0;
+  line-height: 1.2em;
 }
 h2 {
   margin: 3px;
@@ -49,7 +50,7 @@ section {
 }
 
 .hero-section {
-  margin-top: 17vh;
+  margin-top: 12vh;
   text-align: center;
 }
 
@@ -113,7 +114,7 @@ a {
 }
 .social i {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 50px;
 }
 
 a:hover {
@@ -143,6 +144,14 @@ a:hover {
     display: none;
   }
 }
+
+/*stack page*/
+/*
+.work-details img {
+  width: 100%;
+  max-width: 40%;
+}
+*/
 
 /*about me*/
 
