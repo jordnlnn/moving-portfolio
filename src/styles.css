@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap");
 
 body {
-  background-color: rgb(20, 20, 20);
+  /*background-color: rgb(20, 20, 20);*/
+  background-image: url(./peter-gargiulo-cGNCepznaV8-unsplash.jpg);
   color: rgb(255, 255, 255);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
 
@@ -23,7 +24,7 @@ li {
 }
 
 h1 {
-  font-size: 160px;
+  font-size: 100px;
   font-weight: 700;
   margin: 0;
 }
@@ -112,7 +113,7 @@ a {
 }
 .social i {
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 40px;
 }
 
 a:hover {
@@ -180,7 +181,7 @@ a:hover {
   border: none;
   font-size: 20px;
   padding: 5px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-row .form-control:focus,
@@ -190,7 +191,7 @@ a:hover {
 }
 
 .form-submit textarea {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   border: none;
   padding: 0;
@@ -204,7 +205,7 @@ form button {
   background-color: rgb(79, 177, 79);
   color: rgb(255, 255, 255);
   border: none;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 20px;
   font-size: 20px;
 }
