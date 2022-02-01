@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Education</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!--css stylesheet-->
     <link rel="stylesheet" href="../styles.css" />
   </head>
 
@@ -19,90 +28,104 @@
     <section>
       <h2 class="subtitle">education</h2>
       <br />
-      <!--<h2>HTML</h2>
-      <h2>CSS</h2>
-      <h2>JavaScript</h2>
-      <h2>React</h2>-->
-      <table class="work-details">
-        <tr>
-          <td>April 2021</td>
-          <td>
-            <p>SheCodes - Introduction To Coding</p>
+      <!--bootstrap container begins-->
+
+      <div class="container education-details">
+        <!--first row begins-->
+        <div class="row">
+          <div class="col align-self-center date col-md-12">April 2021</div>
+
+          <div class="col-6 col-md-12 align-self-center">
+            <p class="certificate-description">
+              SheCodes - Introduction To Coding
+            </p>
             <a
               href="https://www.shecodes.io/certificates/8cbd544f778a0fa673c24ef33a76ca03"
               >view certificate</a
             >
-          </td>
-          <td>
+          </div>
+
+          <div class="col align-self-center text-center mt-4">
             <img
               src="../../intro-to-coding-shecodes-cert.png"
               id="intro-to-coding-img"
               width="300px"
             />
-          </td>
-        </tr>
-        <tr>
-          <td>May 2021</td>
-          <td>
-            <p>SheCodes - Front End Development</p>
+          </div>
+        </div>
+        <!--first row ends-->
+
+        <!--second row begins-->
+        <div class="row">
+          <div class="col align-self-center date col-md-12">May 2021</div>
+
+          <div class="col-6 align-self-center col-md-12">
+            <p class="certificate-description">
+              SheCodes - Front End Development
+            </p>
             <a
               href="https://www.shecodes.io/certificates/3c76e2236ccffea95a9188031184d95c"
               >view certificate</a
             >
-          </td>
-          <td>
+          </div>
+
+          <div class="col align-self-center text-center mt-4">
             <img
               src="../../front-end-development-shecodes-cert.png"
-              id="intro-to-coding-img"
               width="300px"
             />
-          </td>
-        </tr>
-        <tr>
-          <td>Sept 2021</td>
-          <td>
-            <p>SheCodes - React Develeopment</p>
+          </div>
+        </div>
+        <!--second row ends-->
+
+        <!--third row begins-->
+        <div class="row">
+          <div class="col align-self-center date col-md-12">Sept 2021</div>
+
+          <div class="col-6 align-self-center col-md-12">
+            <p class="certificate-description">SheCodes - React Develeopment</p>
             <a
               href="https://www.shecodes.io/certificates/7d6d7be633e26110ea2c4dd05a8e5daf"
               >view certificate</a
             >
-          </td>
-          <td>
-            <img
-              src="../../react-shecodes-cert.png"
-              id="intro-to-coding-img"
-              width="300px"
-            />
-          </td>
-        </tr>
+          </div>
 
-        <tr>
-          <td>Oct 2021</td>
+          <div class="col align-self-center text-center mt-4">
+            <img src="../../react-shecodes-cert.png" width="300px" />
+          </div>
+        </div>
 
-          <td>
-            <p>FreeCodeCamp - Responsive Web Design</p>
+        <!--fourth row begins-->
+        <div class="row">
+          <div class="col align-self-center date col-md-12">Oct 2021</div>
+          <div class="col-6 align-self-center">
+            <p class="certificate-description">
+              FreeCodeCamp - Responsive Web Design
+            </p>
             <a
               href="https://www.freecodecamp.org/certification/jordnlnn/responsive-web-design"
               >view certificate</a
             >
-          </td>
-
-          <td>
+          </div>
+          <div class="col align-self-center text-center mt-4">
             <img
               src="../../fcc-responsive-web-design-cert-resized.png"
               width="300px"
             />
-          </td>
-        </tr>
-      </table>
+          </div>
+        </div>
+        <!--fourth row ends-->
+
+        <!--last container div-->
+      </div>
     </section>
 
-    <!--<footer>
+    <footer class="sub-pages-footer">
       <ul>
         <a href="https://www.instagram.com/jordnlnn/"><li>Instagram</li></a>
         <a href="https://github.com/jordnlnn"><li>GitHub</li></a>
         <a href=""><li>LinkedIn</li></a>
       </ul>
-    </footer>-->
+    </footer>
   </body>
 </html>
