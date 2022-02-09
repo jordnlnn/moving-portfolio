@@ -6,6 +6,10 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -159,16 +163,68 @@ a:hover {
 
 /*education page*/
 
-.education-details {
-  width: 50%;
+.first-column {
+  border: 1px solid rgb(255, 0, 166);
+  padding: 0px;
+  margin-right: 5%;
+}
+.second-column {
+  margin-right: 5%;
+}
+.alternating-column {
+  border: 1px solid rgb(255, 0, 166);
+  padding: 0px;
 }
 
-a {
-  margin-bottom: 25px;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px !important;
+  margin-right: -30px !important;
+  margin-bottom: 15px !important;
+  margin-left: 15px !important;
+  z-index: 0;
+  position: relative;
+}
+
+.alternating-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px !important;
+  margin-right: 15px !important;
+  margin-bottom: 15px !important;
+  margin-left: -30px !important;
+  z-index: 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .education-details {
+    width: 80%;
+  }
 }
 
 .row {
+  width: 80%;
+  max-width: 1080px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
+  position: relative;
+}
+a.certificate-link {
+  background-color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+a.certificate-link:hover {
+  border: 1px solid rgb(255, 0, 166);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.certificate-description {
+  margin-bottom: 30px;
 }
 
 /*about page*/
