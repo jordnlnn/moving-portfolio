@@ -28,8 +28,8 @@ li {
 }
 
 h1 {
-  font-size: 70px;
-  font-weight: 500;
+  font-size: 100px;
+  font-weight: 700;
   margin: 0;
   line-height: 1.2em;
 }
@@ -65,7 +65,7 @@ section {
 }
 
 .hero-section {
-  margin-top: 20vh;
+  margin-top: 18vh;
   text-align: center;
 }
 
@@ -130,7 +130,7 @@ a {
 
 .social i {
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 45px;
 }
 
 a:hover {
