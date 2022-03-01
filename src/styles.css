@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap");
 
 body {
   /*background-color: rgb(20, 20, 20);*/
   background-image: url(./peter-gargiulo-cGNCepznaV8-unsplash.jpg);
   color: rgb(255, 255, 255);
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   background-attachment: fixed;
   background-position: center;
