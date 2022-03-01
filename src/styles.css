@@ -2,7 +2,8 @@
 
 body {
   /*background-color: rgb(20, 20, 20);*/
-  background-image: url(./peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./peter-gargiulo-cGNCepznaV8-unsplash.jpg);
   color: rgb(255, 255, 255);
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
